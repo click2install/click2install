@@ -13,7 +13,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "click2install"
 title_separator          : "-"
-subtitle                 : "Random chunter"
+subtitle                 : ""
 name                     : &name "click2install" # &name is a YAML anchor which can be *referenced later
 description              : &description "Random chunter about software development, design, architecture and more."
 url                      : https://click2install.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -30,9 +30,8 @@ comments:
     shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
+  facebook:    
+    appid                : # https://developers.facebook.com/docs/plugins/comments
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
@@ -115,8 +114,8 @@ footer:
       icon:  # "fab fa-fw fa-twitter-square"
       url:   # "https://twitter.com/mmistakes"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/click2install"
+      icon:  "fab fa-fw fa-github"
+      url:   "https://github.com/click2install"
     - label: # "Instagram"
       icon:  # "fab fa-fw fa-instagram"
       url:   # "https://instagram.com/mmistakes"
